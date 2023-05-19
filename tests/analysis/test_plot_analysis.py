@@ -33,3 +33,8 @@ class PlotAnalysisTest(unittest.TestCase):
         # Check that the y-axis label is correct
         self.assertEqual(plot_analysis.y_axis_label, "Y-Axis")
 
+def main():
+    unittest.main()
+
+if __name__ == "__main__":
+    main()
